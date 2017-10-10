@@ -21,7 +21,7 @@ void setup() {
 }
 
 void draw() {
-  background(0);
+  background(255);
   for (int iBall=0; iBall<nBalls; iBall++) {
     fill(0, 0, colour[iBall]);
     ellipse(x[iBall]+=xVel[iBall], y[iBall]+=yVel[iBall], diameter[iBall], diameter[iBall]);
