@@ -1,4 +1,4 @@
-int nBalls = 20;
+int nBalls = 10;
 
 float x[] = new float[nBalls], 
   y[] = new float[nBalls], 
